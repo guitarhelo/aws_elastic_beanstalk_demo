@@ -94,8 +94,11 @@
         </div>
          <div class="col-xl-6">
          <h1>Server Information:</h1>
-         <h2><?php echo $_SERVER['HTTP_HOST'];
-          echo $_SERVER['SERVER_NAME'];
+         <h2><?php
+             echo "below is test information";
+             echo $_SERVER['HTTP_HOST'];
+
+             echo $_SERVER['SERVER_NAME'];
           ?>
          </h2>
 
